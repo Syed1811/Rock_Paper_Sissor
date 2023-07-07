@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body,html{
+	background: #326273;
+	color: #fff;
+	height: 100%;
+}
+
+nav{
+	display: block;
+	background: #000;
+	text-align: center;
+}
+
+nav .navbtn{
+	font-size: 3em;
+	cursor: pointer;
+}
+
+.nav{
+	display: none;
+	text-align: center;
+	padding: 0 20px 10px 20px;
+}
+
+.nav li{
+	list-style-type: none;
+	font-size: 1.2em;
+	cursor: pointer;
+	padding: 7.5px 0;
+	/*background: #333;*/
+	margin: 0;
+}
+
+/* nav hr{
+	width: 20%;
+} */
+
+.head{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	padding-top: 15px;
+}
+
+.score{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.score #ps{
+	color: #17BEBB; 
+	font-size: 1.3em;
+}
+
+.score #cs{
+	color: #E4572E;
+	font-size: 1.3em;
+}
+
+
+.game{
+	margin-top: 1.5% !important; 
+	padding-top: 2%;
+	text-align: center;
+	background: #5C9EAD;
+	height: auto;
+	border-radius: 50px;
+	width: 70%;
+	margin: 0 auto; 
+}
+
+.game span{
+	display: inline-block;
+	font-size: 2em;
+	margin: 2% 5%;
+}
+
+.game .subbtn{
+	font-size: 2em;
+	text-transform: uppercase;
+	background: #326273;
+	display: block;
+	padding: 2%;
+	width: 15%;
+	border-radius: 50px;
+	margin: 0 auto;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.game .subbtn:hover{
+	background: #fff;
+	color: #326273;
+	transition: .5s;
+}
+
+.game #res{
+	padding: 20px;
+}
+
+@media only screen and (max-width: 425px)
+{
+	nav{
+		width: 100%;
+	}
+
+	.nav{
+		text-align: center;
+	}
+
+	.nav li{
+		padding: 7.5px 0;
+	}
+
+	.score{
+		width: 100%;
+		text-align: center;
+		margin: 5% 0;
+	}
+
+	.game{
+		width: 100%;
+		height: auto;
+		border-radius: 0;
+	}
+
+	.game h2{
+		font-size: 1.75em;
+	}
+
+	.game span{
+		margin: 10% 5%;
+		font-size: 1.5em;
+	}
+
+	.subbtn{
+		width: 80% !important;
+		padding: 10px 0 !important;
+	}
+
+	.subbtn:hover{
+		background: #326273 !important;
+		color: #fff !important;
+	}
+}

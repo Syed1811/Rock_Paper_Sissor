@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Sissor</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="game.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<nav>
+		<span class="navbtn">
+			&equiv;
+		</span>
+
+		<ul class="nav" align="center">	
+			<li onclick="reset()">Reset Scores</li>
+			<hr>
+			<li onclick="quit()">Quit</li>
+		</ul>
+	</nav>	
+
+	<div class="head">
+		<h2>THE GAME</h2>
+	</div>
+
+	<div class="score">
+		<div class="player">Your Score: <span id="ps"></span></div>	 
+		<div class="comp">Computer's Score: <span id="cs"></span></div>	 
+	</div>	
+
+	<div class="game">
+		<h2>Make your Call:</h2>
+
+		<form>
+
+			<span>
+				<label>
+					<i class="fas fa-hand-rock"></i>
+					<br>
+					Rock
+					<br>
+					<input type="radio" name="usercall" id="r">
+				</label>
+			</span>
+
+			<span>
+				<label>
+					<i class="fas fa-hand-paper"></i>
+					<br>
+					Paper
+					<br>
+					<input type="radio" name="usercall" id="p">
+				</label>
+			</span>
+
+			<span>
+				<label>
+					<i class="fas fa-hand-scissors"></i>
+					<br>
+					Scissors
+					<br>
+					<input type="radio" name="usercall" id="s">
+				</label>
+			</span>
+
+			<div class="subbtn" onclick="action()">Play</div>
+
+			<p id="res"></p>
+			
+		</form>
+
+	</div>
+
+</body>
+</html>
