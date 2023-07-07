@@ -1,10 +1,10 @@
 # Rock Paper Scissors Game
 
-This project is a simple web-based Rock Paper Scissors game. Players can choose between Rock, Paper, or Scissors, and compete against the computer. The game keeps track of the scores and displays the result of each round.
+This project is a simple web-based Rock Paper Scissors game. Players can choose between Rock, Paper, or Scissors and compete against the computer. The game keeps track of the scores and displays the result of each round.
 
 ## How to Play
 
-1. Open the game by visiting [this link](https://syed1811.github.io/Rock_Paper_Sissor/).
+1. Open the game by visiting [rock-paper-sissor.netlify.app](https://rock-paper-sissor.netlify.app/).
 2. On the game interface, make your call by selecting one of the options: Rock, Paper, or Scissors.
 3. Click the "Play" button to submit your choice.
 4. The computer will randomly generate its call.
@@ -39,3 +39,4 @@ To set up the development environment for this project, follow these steps:
 2. Open the project folder.
 3. Open the `index.html` file in a web browser.
 4. Start playing the game!
+
