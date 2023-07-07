@@ -4,7 +4,7 @@ This project is a simple web-based Rock Paper Scissors game. Players can choose 
 
 ## How to Play
 
-1. Open the game by visiting [rock-paper-sissor.netlify.app](https://rock-paper-sissor.netlify.app/).
+1. Open the game by visiting [SiteLink](https://rock-paper-sissor.netlify.app/).
 2. On the game interface, make your call by selecting one of the options: Rock, Paper, or Scissors.
 3. Click the "Play" button to submit your choice.
 4. The computer will randomly generate its call.
