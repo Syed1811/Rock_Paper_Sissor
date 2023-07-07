@@ -107,8 +107,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 	//QUIT FUNCTION
-	function quit(){
-		window.close();
-	}
+	function quit() {
+  var quitMessage = "Are you sure you want to quit the game? You can close this window manually using the browser's close button.";
+  if (confirm(quitMessage)) {
+    window.close();
+  }
+}
+
 	
 
