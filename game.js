@@ -104,12 +104,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
  		//SENDING NAV BACK
  		$('ul.nav').slideToggle();
 	}
-
-
-	//QUIT FUNCTION
-function quit() {
-    window.close();
-}
-
 	
 
